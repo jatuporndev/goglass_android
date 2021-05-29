@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="ร้านค้า"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="ประวัติ"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="หน้าแรก"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="รีวิว"
+        tools:layout="@layout/fragment_review" />
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="บัญชี"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="ตะกล้า"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.example.goglasses.HomeFragment"
+        android:label="สรุป"
+        tools:layout="@layout/fragment_report" />
+
+
+
+</navigation>

@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">GOglasses</string>
+    <!--<string name="root_url" translatable="false">http://10.13.2.240:8000/</string> -->
+      <string name="root_url" translatable="false">http://192.168.1.14:8000/</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <!-- user -->
+    <string name="login_url" translatable="false">api/user/login</string>
+    <string name="user_url" translatable="false">api/user/</string>
+    <string name="useradress_url" translatable="false">api/address/</string>s
+    <string name="register_url" translatable="false">api/user/regis</string>
+    <string name="user_image_url" translatable="false">assets/uploadfile/user/</string>
+    <string name="hashPassword_url" translatable="false">api/hash/</string>
+    <string name="updatepass_url" translatable="false">api/userPass/</string>
+
+    <!-- product -->
+    <string name="product_image_url" translatable="false">assets/uploadfile/product/</string>
+    <string name="product_url" translatable="false">api/product/</string>
+    <string name="productfromid_url" translatable="false">api/product/view/</string>
+    <string name="band_url" translatable="false">api/band</string>
+    <string name="producttype_url" translatable="false">api/productType</string>
+    <string name="lens_url" translatable="false">api/lens/</string>
+    <string name="updatestock_url" translatable="false">api/updateStock/</string>
+    <string name="productRecommend_url" translatable="false">api/recomentproduct/</string>
+
+    <!-- Review -->
+    <string name="review_url" translatable="false">api/review/</string>
+    <string name="countreview_url" translatable="false">api/review/count/</string>
+    <string name="addComment_url" translatable="false">api/addComment/</string>
+    <string name="countComment_url" translatable="false">api/review/count/</string>
+    <string name="countLike_url" translatable="false">api/countLike/</string>
+    <string name="addLike_url" translatable="false">api/addlikes/</string>
+    <string name="liked_url" translatable="false">api/likes/</string>
+    <string name="deletelike_url" translatable="false">api/likes/delete/</string>
+    <string name="userlike_url" translatable="false">api/userlike/</string>
+
+    <!--Order -->
+    <string name="Order_url" translatable="false">api/Order/</string>
+    <string name="Orderdate_url" translatable="false">api/Orderdate/</string>
+    <string name="OrderDetail_url" translatable="false">api/OrderDetail/</string>
+    <string name="getorderID_url" translatable="false">api/getorderID/</string>
+    <string name="addorder_url" translatable="false">api/addorder/</string>
+    <string name="addorderdetail_url" translatable="false">api/addorderdetail/</string>
+    <string name="countorderdrtail_url" translatable="false">api/countOrderdetail/</string>
+    <string name="adminorder_url" translatable="false">api/adminOrder/</string>
+    <string name="updatestatus_url" translatable="false">api/updatestatus/</string>
+    <string name="updateship_url" translatable="false">api/updateship/</string>
+    <string name="updateshiped_url" translatable="false">api/updateshiped/</string>
+
+    <!--Cart -->
+    <string name="addtoCart_url" translatable="false">api/cart/insert/</string>
+    <string name="viewCart_url" translatable="false">api/cart/viewcart/</string>
+    <string name="countCart_url" translatable="false">api/cart/countcart/</string>
+    <string name="deleteCart_url" translatable="false">api/cart/delete/</string>
+    <string name="updatamoutCart_url" translatable="false">api/addamount/</string>
+    <string name="deleteallCart_url" translatable="false">api/deleteallCart/</string>
+
+    <!--payment -->
+    <string name="Addpaymenturl" translatable="false">api/payment/</string>
+    <string name="payment_image_url" translatable="false">assets/uploadfile/payment/</string>
+    <string name="paymentall_url" translatable="false">api/allpayment/</string>
+
+    <!--chart -->
+    <string name="monthlySale_url" translatable="false">api/report/monthlySale/</string>
+    <string name="topFiveProduct_url" translatable="false">api/report/topFiveProduct/</string>
+
+    <!--========================================================================================-->
+
+    <!--Local alert -->
+    <string name="restart" >Restart?</string>
+    <string name="PleseLogin" >Plese Login</string>
+    <string name="Youchoose">"You choose "</string>
+    <string name="Alreadyhave">"Already have"</string>
+    <string name="noproduct">"There are no products in stock"</string>
+    <string name="without">without</string>
+    <string name="instock">"in stock</string>
+
+    <!--Local bottom menu-->
+    <string name="menuUser" >Account</string>
+    <string name="menuhis">History</string>
+    <string name="menushop">Shop</string>
+    <string name="menuHome">Home</string>
+
+    <!--Local user menu-->
+    <string name="edituser">EditAccount</string>
+    <string name="setting">Setting</string>
+    <string name="Help">Help</string>
+    <string name="Logoutuser">Logout</string>
+    <string name="usermenuOrder">Ordered</string>
+    <string name="userComment">Comment</string>
+    <string name="Loginuser">Login</string>
+    <string name="userLogout">Register</string>
+    <string name="detail">Detail</string>
+    <string name="Newpassword">New Password</string>
+    <string name="ok">Ok</string>
+    <string name="adress">adress : </string>
+    <string name="personinfo">Personal information</string>
+    <string name="oldpassword">Old password</string>
+    <string name="userlike">User Likes</string>
+    <string name="choseimage">choose your image</string>
+    <string name="chosecamera">Would you like to select an existing picture or take a new one?</string>
+    <string name="gallery">From gallery</string>
+    <string name="Takepicture">Take a picture</string>
+    <string name="edited">Successfully edited</string>
+
+    <!--Local History-->
+    <string name="orderID">ID : </string>
+    <string name="Totalprice">Totalprice : </string>
+    <string name="Check">Check</string>
+    <string name="Status">Status : </string>
+    <string name="wait">Wait Confirmed </string>
+    <string name="Shipping">Shipping </string>
+    <string name="Delivered">Delivered </string>
+    <string name="Order">Order</string>
+
+    <!--Local shop-->
+    <string name="addtocart">Add to Cart</string>
+    <string name="OutofStock">Out of Stock</string>
+    <string name="Band">Band</string>
+    <string name="Product">Product</string>
+    <string name="Typepro">Type</string>
+    <string name="Comment">Comment</string>
+    <string name="Lens">Lens</string>
+    <string name="Post">Post</string>
+    <string name="Information">Information</string>
+    <string name="Next">Next</string>
+    <string name="Confirm">Confirm</string>
+    <string name="bill">Upload Bill</string>
+    <string name="likes">likes</string>
+    <string name="person"></string>
+    <string name="Confirmed">Confirmed </string>
+    <string name="lensprice">lens Price : </string>
+    <string name="Noproduct">No Product</string>
+    <string name="Noorder">No Order</string>
+    <string name="amount">Quantity </string>
+
+
+
+</resources>

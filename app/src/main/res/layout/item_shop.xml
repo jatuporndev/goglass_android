@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgshop"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/txtproductreviewname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ชื่อแว่น"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtreviewbandname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GUCCI"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/txtshoprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="10000 บาท"
+                android:textColor="#FF002E"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtshoplike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="ถูกใจ 5 คน"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtshoptypename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="แว่นกันแดด"
+                android:textSize="8sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtview100"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Lens"
+                android:textSize="8sp"
+                android:gravity="center_vertical|left"/>
+        <Spinner
+            android:id="@+id/shopspinlend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnaddtocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addtocart"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/appBar"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFragment"
+    android:background="@drawable/bg">
+
+
+    <Button
+        android:id="@+id/btnuserregis"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/userLogout"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        app:backgroundTint="@color/appBar"
+        app:layout_constraintStart_toEndOf="@+id/txttel"
+        app:layout_constraintTop_toBottomOf="@+id/btnuserlogin"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/txtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/txttel"
+        app:layout_constraintTop_toBottomOf="@+id/txtusername" />
+
+    <ImageView
+        android:id="@+id/updateimage"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:src="@drawable/de_user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="14dp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/updateimage"
+        app:layout_constraintTop_toBottomOf="@+id/txtFullname" />
+
+    <TextView
+        android:id="@+id/txttel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:text="Tel. "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/updateimage"
+        app:layout_constraintTop_toBottomOf="@+id/txtusername" />
+
+    <TextView
+        android:id="@+id/txtFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/updateimage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/updateimage"
+        app:layout_constraintTop_toBottomOf="@+id/txtphone" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnedituser"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:gravity="left|center_vertical"
+            android:inputType="text"
+            android:text="@string/edituser"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/appBar"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btnsetting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:drawableLeft="@drawable/ic_baseline_settings_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:gravity="left|center_vertical"
+            android:inputType="text"
+            android:text="@string/setting"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/appBar"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btnhelp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:drawableLeft="@drawable/ic_baseline_help_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:gravity="left|center_vertical"
+            android:inputType="text"
+            android:text="@string/Help"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/appBar"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:drawableLeft="@drawable/ic_baseline_logout_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:gravity="left|center_vertical"
+            android:inputType="text"
+            android:text="@string/Logoutuser"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/appBar"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:background="#2E2E2E"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateimage">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/usermenuOrder"
+                android:textColor="@color/appBar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="86dp"
+                android:layout_height="17dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/userComment"
+                android:textColor="@color/appBar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/txtcountcrderdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="8dp"
+                android:text="0"
+                android:textColor="@color/appBar"
+                android:textSize="36sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/txtcountcomment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="8dp"
+                android:text="0"
+                android:textColor="@color/appBar"
+                android:textSize="36sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView14"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/detail"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtphone" />
+
+    <Button
+        android:id="@+id/btnuserlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/Loginuser"
+        app:backgroundTint="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/updateimage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

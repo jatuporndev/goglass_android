@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GOglasses</string>
+
+    <!--Local alert -->
+    <string name="restart">再起動？</string>
+    <string name="PleseLogin">ログイン</string>
+    <string name="Youchoose">選んで</string>
+    <string name="Alreadyhave">既に持っている</string>
+    <string name="noproduct">"在庫はありません"</string>
+    <string name="without">なし</string>
+    <string name="instock">在庫あり</string>
+
+    <!--String bottom menu-->
+    <string name="menuUser">アカウント</string>
+    <string name="menuhis">歴史</string>
+    <string name="menushop">ショップ</string>
+    <string name="menuHome">ホーム</string>
+
+    <!--Local user menu-->
+    <string name="edituser">アカウントの編集</string>
+    <string name="setting">設定</string>
+    <string name="Help">助けて</string>
+    <string name="Logoutuser">ログアウト</string>
+    <string name="usermenuOrder">注文</string>
+    <string name="userComment">コメント</string>
+    <string name="Loginuser">ログイン</string>
+    <string name="userLogout">登録</string>
+    <string name="detail">詳細</string>
+    <string name="Newpassword">新しいパスワード</string>
+    <string name="ok">Ok</string>
+    <string name="adress">住所</string>
+    <string name="personinfo">個人情報</string>
+    <string name="userlike">ユーザーが好き</string>
+    <string name="choseimage">画像を選択</string>
+    <string name="chosecamera">既存の写真を選択しますか、それとも新しい写真を撮りますか？</string>
+    <string name="gallery">ギャラリーから</string>
+    <string name="Takepicture">写真を撮る</string>
+    <string name="edited">編集に成功</string>
+
+    <!--Local History-->
+    <string name="orderID">ID：</string>
+    <string name="Totalprice">合計金額 ：</string>
+    <string name="Check">小切手</string>
+    <string name="Status">状態 ：</string>
+    <string name="wait">確認待ち</string>
+    <string name="Confirmed">確認済み</string>
+    <string name="Shipping">運送</string>
+    <string name="Delivered">配信</string>
+    <string name="Order">注文</string>
+
+    <!--Local shop-->
+    <string name="addtocart">カートに追加</string>
+    <string name="OutofStock">在庫切れ</string>
+    <string name="Band">バンド</string>
+    <string name="Product">製品</string>
+    <string name="Typepro">タイプ</string>
+    <string name="Comment">コメント</string>
+    <string name="Lens">レンズ</string>
+    <string name="Post">役職</string>
+    <string name="Information">情報</string>
+    <string name="Next">次</string>
+    <string name="Confirm">確認</string>
+    <string name="bill">請求書をアップロードする</string>
+    <string name="likes">好き</string>
+    <string name="person">人</string>
+    <string name="lensprice">レンズ価格 : </string>
+    <string name="oldpassword">以前のパスワード</string>
+    <string name="Noproduct">製品はありません</string>
+    <string name="Noorder">注文なし</string>
+    <string name="amount">量 </string>
+
+</resources>

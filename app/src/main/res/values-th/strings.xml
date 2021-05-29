@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GOglasses</string>
+
+    <!--Local alert -->
+    <string name="restart" >เริ่มระบบใหม่?</string>
+    <string name="PleseLogin" >กรุณาเข้าสู่ระบบ</string>
+    <string name="Youchoose">คุณเลือก</string>
+    <string name="Alreadyhave">มีสินค้าในตระกร้าอยู่แล้ว</string>
+    <string name="noproduct">"ไม่มีสินค้าในสต็อก"</string>
+    <string name="without">ไม่มี</string>
+    <string name="instock">ในสต๊อก</string>
+
+    <!--String bottom menu-->
+    <string name="menuUser" >บัญชี</string>
+    <string name="menuhis">ประวัติ</string>
+    <string name="menushop">ร้านค้า</string>
+    <string name="menuHome">หน้าแรก</string>
+
+
+    <!--Local user menu-->
+    <string name="edituser">แก้ไขข้อมูล</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="Help">ช่วยเหลือ</string>
+    <string name="Logoutuser">ออกจากระบบ</string>
+    <string name="usermenuOrder">ซื้อไปแล้ว</string>
+    <string name="userComment">แสดงความคิดเห็น</string>
+    <string name="Loginuser">เข้าสู่ระบบ</string>
+    <string name="userLogout">สมัครสมาชิก</string>
+    <string name="detail">ข้อมูลเพิ่มเติม</string>
+    <string name="Newpassword">รหัสผ่านใหม่</string>
+    <string name="ok">ตกลง</string>
+    <string name="adress">ที่อยู่ : </string>
+    <string name="personinfo">ข้อมูลส่วนตัว</string>
+    <string name="oldpassword">รหัสผ่านเดิม</string>
+    <string name="userlike">ผู้ที่ได้แสดงความรู้สึก</string>
+    <string name="choseimage">เลือกรูปภาพ</string>
+    <string name="chosecamera">ท่านต้องการเลือกรูปภาพที่มีอยู่แล้ว หรือ ถ่ายภาพใหม่?</string>
+    <string name="gallery">เลือกรูปภาพ</string>
+    <string name="Takepicture">ถ่ายภาพ</string>
+    <string name="edited">แก้ไขเรียบร้อยแล้ว</string>
+
+    <!--Local History-->
+    <string name="orderID">รหัส : </string>
+    <string name="Totalprice">ราคารวม : </string>
+    <string name="Check">ตรวจสอบ</string>
+    <string name="Status">สถานะ : </string>
+    <string name="wait">รอการยืนยัน</string>
+    <string name="Confirmed">ยืนยันแล้ว</string>
+    <string name="Shipping">กำลังจัดส่ง</string>
+    <string name="Delivered">จัดส่งแล้ว</string>
+    <string name="Order">การซื้อของคุณ</string>
+
+    <!--Local shop-->
+    <string name="addtocart">เพิ่มลงตะกร้า</string>
+    <string name="OutofStock">สินค้าหมด</string>
+    <string name="Band">แบรนด์</string>
+    <string name="Product">สินค้า</string>
+    <string name="Typepro">ประเภท</string>
+    <string name="Comment">แสดงความคิดเห็น</string>
+    <string name="Lens">เลนส์</string>
+    <string name="Post">โพสต์</string>
+    <string name="Information">ตรวจสอบข้อมูล</string>
+    <string name="Next">ต่อไป</string>
+    <string name="Confirm">ยืนยันการสั่งซื้อ</string>
+    <string name="bill">อัพโหลดใบเสร็จ</string>
+    <string name="likes">ถูกใจ</string>
+    <string name="person">คน</string>
+    <string name="lensprice">ราคาเลนส์ : </string>
+    <string name="Noproduct">ไม่มีสินค้า</string>
+    <string name="Noorder">ไม่มีรายการซื้อ</string>
+    <string name="amount">จำนวน </string>
+
+
+</resources>
